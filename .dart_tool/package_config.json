@@ -44,6 +44,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "deep_pick",
+      "rootUri": "file:///Users/dennis/.pub-cache/hosted/pub.dartlang.org/deep_pick-0.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///Users/dennis/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.1",
       "packageUri": "lib/",
@@ -170,7 +176,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-11-24T18:34:06.021057Z",
+  "generated": "2020-11-24T19:02:30.620096Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }
