@@ -6,11 +6,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/data_sources/foo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/foo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/repositories/foo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/dto/couchbase_wish.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/dto/couchbase_wish.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/data_sources/foo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/foo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/foo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/domain/repositories/foo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/domain/usecases/foo" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +50,33 @@
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flutter Test.test couchbase data source">
     <configuration name="main" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="test couchbase data source emtpy wishlist" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="test couchbase data source emtpy wishlist" />
+      <option name="testFile" value="$PROJECT_DIR$/test/data/data_sources/couchbase_data_source_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test couchbase data source" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="test couchbase data source" />
+      <option name="testFile" value="$PROJECT_DIR$/test/data/data_sources/couchbase_data_source_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test wishlist domain repo" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="test wishlist domain repo" />
+      <option name="testFile" value="$PROJECT_DIR$/test/domain/repositories/wishlist_repo_test.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter Test.test couchbase data source" />
+        <item itemvalue="Flutter Test.test couchbase data source emtpy wishlist" />
+        <item itemvalue="Flutter Test.test wishlist domain repo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -80,26 +105,45 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="633" y="376" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606233138306" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1606233759795">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="2343" y="442" key="#xdebugger.evaluate" timestamp="1606247751225">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="2343" y="442" key="#xdebugger.evaluate/3440.784.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1606247751225" />
+    <state width="1678" height="409" key="GridCell.Tab.0.bottom" timestamp="1606247852646">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233759795" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1606233759792">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1678" height="409" key="GridCell.Tab.0.bottom/3440.784.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1606247852646" />
+    <state width="1678" height="409" key="GridCell.Tab.0.center" timestamp="1606247852645">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.center/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233759792" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1606233759790">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1678" height="409" key="GridCell.Tab.0.center/3440.784.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1606247852645" />
+    <state width="1678" height="409" key="GridCell.Tab.0.left" timestamp="1606247852645">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.left/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233759790" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1606233759793">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1678" height="409" key="GridCell.Tab.0.left/3440.784.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1606247852645" />
+    <state width="1678" height="409" key="GridCell.Tab.0.right" timestamp="1606247852645">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.right/-2468.-1600.1440.2560/-1028.-1600.3840.1600/0.0.1792.1120@0.0.1792.1120" timestamp="1606233759793" />
+    <state width="1678" height="409" key="GridCell.Tab.0.right/3440.784.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1606247852645" />
     <state x="762" y="299" key="SettingsEditor" timestamp="1606242790766">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="397" y="218" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1606233207022" />
     <state x="762" y="299" key="SettingsEditor/3440.784.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1606242790766" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/data_sources/couchbase_data_source.dart</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

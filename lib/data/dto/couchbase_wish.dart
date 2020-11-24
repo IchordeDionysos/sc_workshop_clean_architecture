@@ -14,9 +14,9 @@ class CouchbaseWish {
   /// Constructs a [CouchbaseWish] from a map.
   CouchbaseWish.fromMap(Map<String, dynamic> map)
       : name = pick(map, 'name').asStringOrNull(),
-        price = pick(map, 'duration').asDoubleOrNull(),
-        id = pick(map, 'duration').asIntOrNull(),
-        icon = pick(map, 'topic').asStringOrNull();
+        price = pick(map, 'price').asDoubleOrNull(),
+        id = pick(map, 'id').asIntOrNull(),
+        icon = pick(map, 'icon').asStringOrNull();
 
   final double price;
 
